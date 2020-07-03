@@ -96,5 +96,11 @@ const inputFunc = () => {
         
     }
 };
+const addAfterKeypress = (e) => {
+    if (e.which === 13) {
+        inputFunc();
+    }
+};
 
+input.addEventListener('keypress', addAfterKeypress);
 submit.addEventListener('click', inputFunc);
