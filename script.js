@@ -92,8 +92,8 @@ const inputFunc = () => {
                     outputArr.push(`${letter}`);
                 break;
             }})
+        input.value = "";
         document.getElementById("output").innerHTML = outputArr.join("<br>");
-        
     }
 };
 const addAfterKeypress = (e) => {
