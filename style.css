@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Images/Camo.jpg);
+    font-family: 'Stardos Stencil', cursive;
+}
+
+h1{
+    font-size: 3rem;
+    color: rgb(245, 245, 188);
+    text-align: center;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+    background-color: rgba(41, 41, 41, 0.8);
+    border-radius: .2rem;
+    border: 2px solid black;
+}
+
+#input {
+    margin: 2em  0 2em 0;
+    font-size: 1em;
+    padding: .5rem;
+}
+
+.input-container{
+    text-align: center;
+}
+
+#output{
+    color: black;
+    background-color: rgba(245, 245, 245, 0.8);
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin: .5rem;
+    border-radius: .2rem;
+    text-align: center;
+    border: 2px solid black;
+}
+#submit{
+    padding: .5rem;
+    font-size: 1.1rem;
+}
